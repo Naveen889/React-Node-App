@@ -1,0 +1,34 @@
+.questions-container {
+  overflow-y: inherit;
+  margin-top: 4.5em;
+  text-align: center;
+  text-align: center;
+  .Questions-Table {
+    height: 25em;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .table-header {
+      color: rgb(108, 86, 231);
+    }
+  }
+}
+
+.MuiDialog-paper-AddQuestionModel {
+  .MuiDialog-paperScrollPaper {
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+    width: 32em;
+    text-align: center;
+    padding: 15px;
+    .MuiFormControl-root {
+      width: 28em;
+    }
+    .MuiButtonBase-root {
+      width: 8em;
+      margin: 5px;
+    }
+  }
+}

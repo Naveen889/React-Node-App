@@ -1,0 +1,72 @@
+.write-exam-container {
+  margin-top: 6.5em;
+  text-align: center;
+  text-align: center;
+  .MuiGrid-container {
+    margin-left: 24px;
+    .MuiGrid-item {
+      height: 25em;
+      text-align: left;
+      background: linear-gradient(-34deg, white, rgba(248, 248, 250, 0.22));
+      border-radius: 20px;
+      margin: 15px;
+      padding: 20px;
+      box-shadow: 9px -9px 12px 0 rgba(163, 169, 185, 0.3),
+        -12px 12px 16px rgba(30, 104, 104, 0.25);
+      .MuiFormControl-root {
+        padding: 15px;
+        text-align: left;
+        width: 50em;
+        .MuiFormLabel-root {
+          line-height: 1.4;
+        }
+        .MuiFormGroup-root {
+          margin: 30px 0px 20px 0px;
+          padding-left: 5px;
+          .MuiTypography-root {
+            text-align: left;
+          }
+        }
+      }
+      .next-buttons {
+        text-align: right;
+
+        .MuiButtonBase-root {
+          margin: 3px;
+        }
+      }
+      .questions-list {
+        border-top: 50px;
+        text-align: center;
+        margin: 2px;
+        .MuiGrid-item {
+          height: 2em;
+          justify-content: center;
+          background-color: rgba(240, 84, 12, 0.767);
+          width: 3em;
+          margin: 5px;
+          border-radius: 10px;
+        }
+        .submit-button {
+          margin-top: 6em;
+          .MuiButtonBase-root {
+            background-color: orangered;
+            color: aliceblue;
+          }
+        }
+      }
+    }
+  }
+  .start-exam {
+    text-align: center;
+    justify-content: center;
+    .MuiGrid-grid-xs-8 {
+      h4 {
+        color: rgb(119, 96, 245);
+      }
+      text-align: center;
+      .MuiButtonBase-root {
+      }
+    }
+  }
+}

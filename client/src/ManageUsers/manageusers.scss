@@ -1,0 +1,35 @@
+/* Users Data Table Styles */
+.ManageUsers {
+  margin-top: 4.5em;
+  text-align: center;
+  text-align: center;
+  .DataGrid {
+    height: 30em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .table-header {
+      color: rgb(108, 86, 231);
+    }
+  }
+}
+
+/* Add Users Model Styles */
+
+.MuiDialog-paper-AddUserModel {
+  .MuiDialog-paperScrollPaper {
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+    width: 25em;
+    text-align: center;
+    padding: 15px;
+    .MuiFormControl-root {
+      width: 20em;
+    }
+    .MuiButtonBase-root {
+      width: 8em;
+      margin: 5px;
+    }
+  }
+}

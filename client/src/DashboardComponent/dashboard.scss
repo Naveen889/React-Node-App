@@ -1,0 +1,27 @@
+.dashboard {
+  background-color: rgb(230, 225, 220);
+  margin-top: 4em;
+  text-align: center;
+  h4 {
+    color: rgb(236, 151, 22);
+    padding-top: 2px;
+  }
+  .MuiGrid-spacing-xs-5 {
+    .MuiPaper-elevation1 {
+      height: 10em;
+      margin: 1px;
+      align-items: center;
+      background: rgb(230, 225, 220);
+      border-radius: 50px;
+      display: flex;
+      height: 150px;
+      justify-content: center;
+      box-shadow: 10px 10px 15px rgb(197, 189, 183), -10px -10px 15px white;
+    }
+    .chart {
+      .MuiPaper-elevation1 {
+        height: 17em;
+      }
+    }
+  }
+}
